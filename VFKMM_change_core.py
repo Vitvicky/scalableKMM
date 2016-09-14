@@ -65,6 +65,7 @@ def kmmProcess():
 
     train, train_beta, test = split(input_file, training_size)
 
+
     #end = time.time()
     #split_time = end - start
 
