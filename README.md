@@ -1,5 +1,6 @@
 # scalableKMM
-The implement of the KMM algorithm's scalable/spark version
+The implement of the KMM algorithm's scalable/spark version.
+
 The project is to implement a scalable version of a solution to a problem known as sampling bias correction. In machine learning, a training set is used to learn a hypothesis. This hypothesis is tested on a test dataset assuming that the given dataset exhibits similar data distribution as the training set. However in many real-world scenarios, this assumption does not hold. Empirical data distribution of the training and test set may be different.
 
 Generally, if the two datasets are unrelated, it is not possible to learn a good model (hypothesis). But if you consider that the class conditional probability distributions are the same between training and test datasets, i.e. P(Y | X) are the same, then the only change is the marginal distribution P(X).
