@@ -83,6 +83,7 @@ def cenKmmProcess():
     if training_size == 100:
         writer.writerow(['train_size', 'accuracy', 'compute_time'])
         writer.writerow([training_size, final_result_Cen, compute_time_Cen])
+        
     else:
         writer.writerow([training_size, final_result_Cen, compute_time_Cen])
 
