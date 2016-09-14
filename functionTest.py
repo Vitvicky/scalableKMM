@@ -41,6 +41,7 @@ def kmmProcess():
     #                    help="default output file")
     args = parser.parse_args()
 
+
     mode = args.bagging  # bagging strategy
     training_size = args.training  # training set size (small training set)
     # tr_bsize = args.tr_bsize  # By default, the train bag size is dynamic, if specified, the train bag size will fix
