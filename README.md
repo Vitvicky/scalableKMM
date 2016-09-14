@@ -21,5 +21,7 @@ Multiple methods have been proposed to solve for B. Particularly, a method known
 Considering that bagging is applicable on both training and test datasets, your primary task is to design a strategy so that this quadratic program (which is the estimator in question) can be run on large number of samples from both training and test datasets on Apache Spark. We will provide you with the datasets and a basic quadratic program (in python) to perform Kernel Mean Matching. You are to design the bagging mechanism and data synchronization to compute the overall result.
 
 For more details on the problem, please refer to the following papers.
+
 1) Gretton, Arthur, Alex Smola, Jiayuan Huang, Marcel Schmittfull, Karsten Borgwardt, and Bernhard Schölkopf. "Covariate shift by kernel mean matching." Dataset shift in machine learning 3, no. 4 (2009): 5.
+
 2) Miao, Yun-Qian, Ahmed K. Farahat, and Mohamed S. Kamel. "Ensemble Kernel Mean Matching." In Data Mining (ICDM), 2015 IEEE International Conference on, pp. 330-338. IEEE, 2015.
