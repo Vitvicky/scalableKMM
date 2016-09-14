@@ -63,6 +63,7 @@ def main():
 # np.savetxt('/home/wzyCode/scalablelearning/input/'+file_name + '/'+str(training_size)+'_test.txt', test_data);
 # np.savetxt('/home/wzyCode/scalablelearning/input/'+file_name + '/'+str(training_size)+'_beta.txt', orig_beta_data);
 
+
     end = time.time()
     split_time = end - start
 
